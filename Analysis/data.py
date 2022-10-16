@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib as plt
 import seaborn as sns
 import os
+import statsmodels.api as sm
 
 ####################   LOAD IN DATA  ####################
 
@@ -92,18 +93,9 @@ travelers.sort_values(by="weekend", ascending=False)[["Station", "weekend"]].hea
 facilities['free_parking'].fillna(0, inplace=True)
 facilities['tram'].fillna(0, inplace=True)
 
-# In[55]:
+print(facilities.shape)
 
-
-facilities.shape
-
-# In[56]:
-
-
-travelers.shape
-
-# In[57]:
-
+print(travelers.shape)
 
 # PROBLEM: no exact match in traveler/facilities information
 # ASSUMPTION: travelers is subset of facilities
@@ -122,11 +114,11 @@ still_needed = set(travelers['Station']).difference(intersection)
 
 len(still_needed)
 
-still_needed
+print(still_needed)
 
 facility_names = set(facilities['name']).difference(intersection)
 
-facility_names
+print(facility_names)
 
 # The facilities dateset also includes international stations, more small stations and different names for the stations with bilingual names or more complicated names. We will have to impute these manually. I will do some, but you will have to create a dictionary of all linked names in order to impute those names.
 
@@ -134,28 +126,107 @@ facility_names
 Dict = dict({'antwerpen-caal': 'antwerpen-centraal',
              'arcades': 'arcaden/arcades',
              'beignee': 'beignée',
-             'berchem-st-ag.-berchem': 'sint-agatha-berchem/berchem-sainte-agathe'})
+             'berchem-st-ag.-berchem': 'sint-agatha-berchem/berchem-sainte-agathe',
+             'berzee' : 'berzée',
+             'boitsfort/bosvoorde' : 'bosvoorde/boitsfort',
+             'boondael/boondaal' : 'boondaal/boondael',
+             'bru. airport - zaventem' : 'brussels airport - zaventem',
+             'bru.-cent.' : 'brussel-centraal/bruxelles-central',
+             'bru.-chap./kap.' : 'brussel-kapellekerk/bruxelles-chapelle',
+             'bru.-cong.' : 'brussel-congres/bruxelles-congrès',
+             'bru.-luxembg' : 'brussel-luxemburg/bruxelles-luxembourg',
+             'bru.-midi/zuid' : 'brussel-zuid/bruxelles-midi',
+             'bru.-noord/nord' : 'brussel-noord/bruxelles-nord',
+             'bru.-schuman' : 'brussel-schuman/bruxelles-schuman',
+             'bru.-west/ouest' : 'brussel-west/bruxelles-ouest',
+             'chateau-de-seilles' : 'château-de-seilles',
+             'chatelet' : 'châtelet',
+             'chenee' : 'chênée',
+             'comines/komen' : 'comines',
+             'courriere' : 'courrière',
+             'court-saint-etienne' : 'court-saint-étienne',
+             'ecaussinnes' : 'écaussinnes',
+             'enghien/edingen' : 'enghien',
+             'erbisoeul' : 'erbisœul',
+             'fexhe-le-ht-clocher':'fexhe-le-haut-clocher',
+             'forest-est/vorst-oost' : 'vorst-oost/forest-est',
+             'forest-midi/vorst-zuid' :'vorst-zuid/forest-midi',
+             'forrieres' : 'forrières',
+             'franiere' : 'franière',
+             'germoir/mouterij' : 'mouterij/germoir',
+             'haren-zuid/sud' : 'haren-sud/haren-zuid',
+             'haute-flone' : 'haute-flône',
+             'hennuyeres' : 'hennuyères',
+             'jurbise' : 'jurbeke',
+             'la louviere-centre' : 'la louvière-centre',
+             'la louviere-sud' : 'la louvière-sud',
+             'la roche' : 'la roche (brabant)',
+             'labuissiere' : 'labuissière',
+             'lessines' : 'lessen',
+             'liege-carre' : 'liège-carré',
+             'liege-guillemins' : 'liège-guillemins',
+             'liege-saint-lambert' : 'liège-saint-lambert',
+             'lonzee' : 'lonzée',
+             'marche-lez-ecaussinnes' : 'marche-lez-écaussinnes',
+             'mery' : 'méry',
+             'mortsel-oude-god' : 'mortsel-oude god',
+             'mouscron/moeskroen' : 'mouscron',
+             'nameche' : 'namêche',
+             'neufchateau' : 'neufchâteau',
+             'ougree' : 'ougrée',
+             'papignies' : 'papegem',
+             'pecrot' : 'pécrot',
+             'pepinster-cite' : 'pepinster-cité',
+             'peruwelz' : 'péruwelz',
+             'pieton' : 'piéton',
+             'pont-a-celles' : 'pont-à-celles',
+             'ronse/renaix' : 'ronse',
+             'ruisbr.-sauvegarde' : 'ruisbroek-sauvegarde',
+             'spa-geronstere' : 'spa-géronstère',
+             'st-denijs-boekel' : 'sint-denijs-boekel',
+             'st-denis-bovesse' : 'saint-denis-bovesse',
+             'st-gen-rode/rhode-st-gen' : 'sint-genesius-rode',
+             'st-ghislain' : 'saint-ghislain',
+             'st-gillis' : 'sint-gillis-dendermonde',
+             'st-job' : 'sint-job',
+             'st-joris-weert' : 'sint-joris-weert',
+             'st-katelijne-waver' : 'sint-katelijne-waver',
+             'st-mariaburg' : 'sint-mariaburg',
+             'st-martens-bodegem' : 'sint-martens-bodegem',
+             'st-niklaas' : 'sint-niklaas',
+             'st-truiden' : 'sint-truiden',
+             'tour et taxis/thurn en taxis' : 'thurn en taxis/tour et taxis',
+             'uccle/ukkel-calevoet' : 'ukkel-kalevoet/uccle-calevoet',
+             'uccle/ukkel-stalle' : 'ukkel-stalle/uccle-stalle',
+             'ville-pommeroeul' : 'ville-pommerœul',
+             'vise' : 'visé',
+             'vivier d\'oie/diesdelle' : 'diesdelle/vivier d\'oie',
+             'watermael/watermaal' : 'watermaal/watermael',
+             'yves-gomezee' : 'yves-gomezée'
+             })
 
 # replace names
 travelers = travelers.replace({"Station": Dict})
-
 # check if overlap +4 (previously overlap = 473)
-len(list(set(facilities['name']).intersection(set(travelers['Station']))))
+print(len(list(set(facilities['name']).intersection(set(travelers['Station'])))))
+intersection = list(set(facilities['name']).intersection(set(travelers['Station'])))
 
-# Overlap has increased by four. These four are the four stations I have mapped out.
+## now we have changed all names correctly, the travelers stations names overlap completely!
+still_needed = set(travelers['Station']).difference(intersection)
+print(len(still_needed))
+print(still_needed)
 
-# Let's assume we have imputed all station names. Now we can merge the two datasets and run an analysis to see whether tram and free parking availability correlate to the number of travelers on a weekday. Do note that the relationship can be bi-directional. People can be inclined to use stations with connection to trams, but public transport companies can also be more likely to link their network with popular train stations.
 
+# Now we can merge the two datasets and run an analysis to see whether tram and free parking availability correlate to the number of travelers on a weekday.
+# Do note that the relationship can be bi-directional. People can be inclined to use stations with connection to trams, but public transport companies can also be more likely to link their network with popular train stations.
 
 # first merge
 merge = pd.merge(facilities, travelers, left_on='name', right_on='Station')
-
 # check if all were matched
-merge.shape
+print(merge.shape)
+
 
 # To perform a multivariate regression, we will use the statsmodels package. Note that sklearn (which you will use later on in the course) also has an implementation of the model. However, sklearn focuses more on predictive performance (how good you can predict something) instead of statistical inference. Since we are interested whether relationships are significant, we will use statsmodels in this case
-
-import statsmodels.api as sm
 
 # run multivariate regression
 X = merge[['tram', 'free_parking']]
@@ -167,7 +238,7 @@ model = sm.OLS(Y, X).fit()
 print_model = model.summary()
 
 # show results of regression
-print_model
+print(print_model)
 
 
 # This directory contains files that each describe the information on train trips on a certain day
