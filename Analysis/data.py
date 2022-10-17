@@ -8,7 +8,7 @@ import statsmodels.api as sm
 ####################   LOAD IN DATA  ####################
 
 # This file describes facilities available in NMBS/SNCB stations.
-facilities = pd.read_csv("../group7-group-assignment-/Data/facilities.csv")
+facilities = pd.read_csv("../Data/facilities.csv")
 # check number of missing values per variable
 for col in facilities.columns:
     missings = len(facilities[col][facilities[col].isnull()]) / float(len(facilities))
@@ -28,21 +28,21 @@ for col in facilities.columns:
 
 
 # This file describes all the type of incidents that happened with the resulting delays and cancellations.
-incidents = pd.read_csv("../group7-group-assignment-/Data/incidents.csv")
+incidents = pd.read_csv("../Data/incidents.csv")
 
 # This file describes the average satisfaction score for each station.
-satisfaction = pd.read_csv("../group7-group-assignment-/Data/satisfaction.csv")
+satisfaction = pd.read_csv("../Data/satisfaction.csv")
 
 # This file describes all NMBS/SNCB stations in Belgium.
 # A station can have multiple platforms (stops), which are described in stops.csv.
-stations = pd.read_csv("../group7-group-assignment-/Data/stations.csv")
+stations = pd.read_csv("../Data/stations.csv")
 
 # This file describes all NMBS/SNCB stops in Belgium.
 # Each platform is a separate stop location.
-stops = pd.read_csv("../group7-group-assignment-/Data/stops.csv")
+stops = pd.read_csv("../Data/stops.csv")
 
 # This file describes the average number of travelers per station. URI: The URI identifying this station.
-travelers = pd.read_excel("../group7-group-assignment-/Data/travelers.xlsx", skiprows=1)
+travelers = pd.read_excel("../Data/travelers.xlsx", skiprows=1)
 travelers.head(5)
 # rename
 travelers = travelers.rename({"Avg number of travelers in the week": "week",
@@ -242,7 +242,7 @@ print(print_model)
 
 
 # This directory contains files that each describe the information on train trips on a certain day
-data_dir = "../group7-group-assignment-/Data/Trips"
+data_dir = "../Data/Trips"
 os.listdir(data_dir)
 all_trips = [obs for obs in os.listdir(data_dir) if ".DS" not in obs]
 full_trips = pd.DataFrame()
@@ -253,4 +253,13 @@ for trip in all_trips:
     df = pd.read_csv(os.path.join(data_dir, trip), sep=",")
     full_trips = full_trips.append(df)
     print(full_trips.shape)
+print(full_trips.head(5))
 
+for timing in full_trips [['Time of planned arrival', 'Time of planned departure', 'Time of real arrival', 'Time of real departure']]:
+    timing = pd.to_timedelta(arg = timing, errors= "coerce")
+
+print(full_trips [['Time of planned arrival', 'Time of planned departure', 'Time of real arrival', 'Time of real departure']].head(7))
+
+#clean up facilities df
+facilities['URI_ID'] = facilities['URI'].str[-9:]
+print(facilities.columns)
