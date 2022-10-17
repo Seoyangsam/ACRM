@@ -8,7 +8,7 @@ import statsmodels.api as sm
 ####################   LOAD IN DATA  ####################
 
 # This file describes facilities available in NMBS/SNCB stations.
-facilities = pd.read_csv("../Data/facilities.csv")
+facilities = pd.read_csv("../Data/Unprocessed/facilities.csv")
 # check number of missing values per variable
 for col in facilities.columns:
     missings = len(facilities[col][facilities[col].isnull()]) / float(len(facilities))
@@ -28,18 +28,18 @@ for col in facilities.columns:
 
 
 # This file describes all the type of incidents that happened with the resulting delays and cancellations.
-incidents = pd.read_csv("../Data/incidents.csv")
+incidents = pd.read_csv("../Data/Unprocessed/incidents.csv")
 
 # This file describes the average satisfaction score for each station.
-satisfaction = pd.read_csv("../Data/satisfaction.csv")
+satisfaction = pd.read_csv("../Data/Unprocessed/satisfaction.csv")
 
 # This file describes all NMBS/SNCB stations in Belgium.
 # A station can have multiple platforms (stops), which are described in stops.csv.
-stations = pd.read_csv("../Data/stations.csv")
+stations = pd.read_csv("../Data/Unprocessed/stations.csv")
 
 # This file describes all NMBS/SNCB stops in Belgium.
 # Each platform is a separate stop location.
-stops = pd.read_csv("../Data/stops.csv")
+stops = pd.read_csv("../Data/Unprocessed/stops.csv")
 
 # This file describes the average number of travelers per station. URI: The URI identifying this station.
 travelers = pd.read_excel("../Data/travelers.xlsx", skiprows=1)
@@ -242,7 +242,7 @@ print(print_model)
 
 
 # This directory contains files that each describe the information on train trips on a certain day
-data_dir = "../Data/Trips"
+data_dir = "../Data/Unprocessed/Trips"
 os.listdir(data_dir)
 all_trips = [obs for obs in os.listdir(data_dir) if ".DS" not in obs]
 full_trips = pd.DataFrame()

@@ -1,0 +1,199 @@
+Month;Date of the incident;Line;Place;Description of the incident;Number of minutes delay;Number of cancelled trains
+2019-01;4/01/19;96;HALLE;Persoonsongeval;2393;75
+2019-01;8/01/19;59;BELSELE;Schade treinmaterieel;1491;23
+2019-01;15/01/19;50A;Y.MEULEWIJK;Schade bovenleiding;1776;23
+2019-01;18/01/19;161;GROENENDAAL;Uitzonderlijke weersomstandigheden;4388;89
+2019-01;23/01/19;124;DE HOEK;Schade treinmaterieel;1379;16
+2019-02;1/02/19;27;VILVOORDE;Spoorlopers;1411;16
+2019-02;25/02/19;94;SAINTES;Persoonsongeval;1665;86
+2019-03;4/03/19;161;Y.JOSAPHAT;Schade bovenleiding;1218;18
+2019-03;6/03/19;118;BRACQUEGNIES;Laattijdig einde van werken;1468;20
+2019-03;10/03/19;-;-;Uitzonderlijke weersomstandigheden;12415;686
+2019-03;22/03/19;161;GROENENDAAL;Spoorlopers;1285;17
+2019-03;29/03/19;59;BEERVELDE;Storing seininrichting;1265;26
+2019-04;18/04/19;50A;Y.SINT-KATHERINA-LOMBEEK;Schade bovenleiding;1319;17
+2019-04;29/04/19;36;TIENEN;Incident tijdens een werf;1263;27
+2019-04;30/04/19;26;Y.NOORD HALLE;Dringende werken;1706;33
+2019-05;2/05/19;25;ANTWERPEN-LUCHTBAL;Schade bovenleiding;1755;19
+2019-05;10/05/19;75;WAREGEM;Incident tijdens een werf;1125;8
+2019-05;14/05/19;25;BRUSSEL-NOORD;Kwaadwillige daad;24757;1
+2019-05;16/05/19;96;BUIZINGEN;Spoorlopers;3666;43
+2019-05;19/05/19;161;SAINT-DENIS-BOVESSE;Uitzonderlijke weersomstandigheden;1280;36
+2019-06;13/06/19;25;VILVOORDE;Incident tijdens een werf;1428;62
+2019-06;19/06/19;0/1;BRUSSEL-ZUID;Schade treinmaterieel;1080;2
+2019-06;20/06/19;60;JETTE;Aanwezigheid verdacht pakket;1403;54
+2019-06;27/06/19;15;OLEN;Schade treinmaterieel;1330;11
+2019-06;28/06/19;0/3;BRUSSEL-ZUID;Storing seininrichting;2904;25
+2019-07;23/07/19;58;Y.NOORD DRIEHOEK LEDEBERG;Schade bovenleiding;1444;48
+2019-07;24/07/19;1;HALLE;Schade hogesnelheidstrein;7986;22
+2019-07;24/07/19;15;DE BIST;Schade treinmaterieel;1007;9
+2019-08;10/08/19;161;BEUZET;Kabeldiefstal;1286;33
+2019-08;14/08/19;36N;SCHAARBEEK;Seinvoorbijrijding;1701;12
+2019-09;6/09/19;15;LIER;Schade treinmaterieel;1759;22
+2019-09;9/09/19;34;HERSTAL;Incident tijdens een werf;2914;280
+2019-09;12/09/19;96E;HALLE-GOEDEREN;Incident tijdens een werf;1361;27
+2019-09;13/09/19;124;BRAINE-L'ALLEUD;Schade treinmaterieel;1821;36
+2019-09;18/09/19;96N;BRUSSEL-ZUID;Spoorlopers;1974;8
+2019-10;1/10/19;50A;GENT-SINT-PIETERS;Uitzonderlijke weersomstandigheden;2184;22
+2019-10;7/10/19;59;BEERVELDE;Incident tijdens een werf;1734;38
+2019-10;15/10/19;162;NEUFCHATEAU;Persoonsongeval;1178;40
+2019-10;21/10/19;161A;MOUTERIJ;Spoorlopers;1427;18
+2019-10;28/10/19;125;FLEMALLE-HAUTE;Incident tijdens een werf;1802;40
+2019-10;28/10/19;15;BOUWEL;Persoonsongeval;1012;53
+2019-10;30/10/19;36C/2;Y.MACHELEN-ZUID;Seinvoorbijrijding;1311;43
+2019-11;4/11/19;130;AUVELAIS;Schade bovenleiding;1892;75
+2019-11;13/11/19;27;MORTSEL;Spoorlopers;1358;16
+2019-12;3/12/19;1;Y.BEAUREGARD;Aanrijding van een dier;2542;2
+2019-12;17/12/19;124;CHARLEROI-SUD;Incident tijdens een werf;1015;12
+2019-12;18/12/19;35;HASSELT;Ongeval aan een overweg;1264;32
+2019-12;26/12/19;96;HALLE;Schade bovenleiding;2615;39
+2020-01;3/01/20;25;DUFFEL;Persoonsongeval;4102;75
+2020-02;13/02/20;0/1;BRUSSEL-CENTRAAL;Spoorlopers;1372;11
+2020-02;13/02/20;28L/1;SCHAARBEEK-VORMING;Brand in de nabijheid van het spoor;2360;18
+2020-02;15/02/20;36;BRUSSEL-NOORD;Spoorlopers;2067;35
+2020-03;12/03/20;96;BUIZINGEN;Uitzonderlijke weersomstandigheden;1134;16
+2020-03;16/03/20;-;-;Maatregelen COVID 19;3716;900
+2020-03;28/03/20;50A;GENT-SINT-PIETERS;Spoorlopers;1435;13
+2020-05;5/05/20;0/1;BRUSSEL-CENTRAAL;Bommelding;4518;88
+2020-05;28/05/20;161;MONT-SAINT-GUIBERT;Persoonsongeval;2615;78
+2020-06;2/06/20;124;LUTTRE;Laattijdig einde van werken;1715;4
+2020-06;17/06/20;36N;SCHAARBEEK;Persoonsongeval;1157;26
+2020-06;23/06/20;124;CHARLEROI-SUD;Incident tijdens een werf;1082;16
+2020-06;25/06/20;161;GROENENDAAL;Persoonsongeval;1113;40
+2020-06;26/06/20;29;Y.KRUISBERG;Schade bovenleiding;1389;6
+2020-07;1/07/20;161;BLANMONT;Ongeval aan een overweg;1721;57
+2020-07;13/07/20;60;ZELLIK;Incident tijdens een werf;2149;49
+2020-07;31/07/20;50A;JABBEKE;Storing seininrichting;1114;3
+2020-08;7/08/20;161;GEMBLOUX;Schade bovenleiding;1221;36
+2020-08;9/08/20;50A/4;Y.MEULEWIJK;Spoorlopers;1481;13
+2020-08;20/08/20;36N;Y.ALBERTBRUG;Storing seininrichting;1475;14
+2019-01;8/01/19;25;SINT-KATELIJNE-WAVER;Persoonsongeval;3340;50
+2019-01;21/01/19;161;GEMBLOUX;Schade bovenleiding;1043;26
+2019-01;26/01/19;0/2;BRUSSEL-CONGRES;Brand in het spoor;3380;97
+2019-02;4/02/19;0/1;BRUSSEL-CENTRAAL;Schade treinmaterieel;1756;5
+2019-02;11/02/19;4;NOORDERKEMPEN;Uitzonderlijke weersomstandigheden;1500;88
+2019-02;11/02/19;50C;ANDERLECHT-ROOSTER WEST;Spoorlopers;1303;12
+2019-02;12/02/19;-;-;Sociale actie;1283;54
+2019-02;25/02/19;27;Y.NOORD BERCHEM;Storing seininrichting;1270;8
+2019-03;25/02/19;161;OTTIGNIES;Dringende werken;362;0
+2019-03;5/03/19;0/3;BRUSSEL-ZUID;Seinvoorbijrijding;2242;21
+2019-04;2/04/19;161;GEMBLOUX;Kabeldiefstal;3079;132
+2019-04;17/04/19;0/1;BRUSSEL-NOORD;Storing seininrichting;1901;22
+2019-04;24/04/19;116;LA LOUVIERE-GARE INDUSTRIELLE;Obstakel in het spoor;1303;24
+2019-05;2/05/19;0/3;BRUSSEL-CENTRAAL;Spoorlopers;1732;16
+2019-05;3/05/19;36N;SCHAARBEEK;Spoorlopers;6528;60
+2019-05;10/05/19;0/1;BRUSSEL-ZUID;Spoorlopers;1859;3
+2019-05;18/05/19;0/5;BRUSSEL-CONGRES;Spoorlopers;2282;42
+2019-06;6/06/19;25;MECHELEN-DIJKSTRAAT;Schade treinmaterieel;1048;17
+2019-06;20/06/19;89;VICHTE;Ongeval aan een overweg;1312;52
+2019-06;24/06/19;37;PEPINSTER;Wisselstoring;1255;11
+2019-06;24/06/19;112;CARNIERES;Storing aan een overweg;1033;21
+2019-06;26/06/19;0/5;BRUSSEL-ZUID;Schade treinmaterieel;1001;2
+2019-07;3/07/19;50A;BEERNEM;Persoonsongeval;2022;51
+2019-07;21/07/19;36N;LEUVEN;Persoonsongeval;1560;25
+2019-07;24/07/19;36;SCHAARBEEK;Schade bovenleiding;2103;15
+2019-07;25/07/19;25;MECHELEN;Schade bovenleiding;1226;116
+2019-08;14/08/19;25;ANTWERPEN-CENTRAAL;Schade treinmaterieel;1006;9
+2019-08;14/08/19;25;MECHELEN;Incident tijdens een werf;3059;74
+2019-08;24/08/19;66;LICHTERVELDE;Schade bovenleiding;1309;58
+2019-08;26/08/19;35;DIEST;Persoonsongeval;1069;45
+2019-09;12/09/19;26;DIESDELLE;Schade treinmaterieel;1297;28
+2019-09;16/09/19;25;SCHAARBEEK;Storing seininrichting;1184;27
+2019-10;4/10/19;36;SCHAARBEEK;Storing seininrichting;1298;21
+2019-10;15/10/19;-;-;IT storing;9891;15
+2019-11;8/11/19;96B;BRUSSEL-ZUID;Schade hogesnelheidstrein;1373;6
+2019-11;19/11/19;0/1;BRUSSEL-ZUID;Storing seininrichting;3008;30
+2019-11;20/11/19;0/5;BRUSSEL-CENTRAAL;Schade treinmaterieel;1706;32
+2019-11;21/11/19;0/5;BRUSSEL-CONGRES;Storing seininrichting;2085;27
+2019-11;21/11/19;36;TIENEN;Persoonsongeval;1008;24
+2019-12;9/12/19;59;BELSELE;Spoorlopers;1136;13
+2019-12;18/12/19;-;-;Staking of sociale actie;3154;82
+2019-12;27/12/19;36;HAREN-ZUID;Kwaadwillige daad;3584;33
+2020-01;21/01/20;50C;BRUSSEL-ZUID;Schade treinmaterieel;1043;8
+2020-01;22/01/20;1;HALLE-RING;Schade bovenleiding;1550;18
+2020-01;31/01/20;50;SCHELLEBELLE;Ongeval aan een overweg;1834;104
+2020-02;1/02/20;54;WILLEBROEK;Storing aan de infrastructuur;1746;0
+2020-02;9/02/20;-;-;Uitzonderlijke weersomstandigheden;35626;477
+2020-02;25/02/20;36N;KORTENBERG;Persoonsongeval;9003;182
+2020-02;26/02/20;124;WATERLOO;Schade bovenleiding;1090;41
+2020-03;4/03/20;161;NAMUR;Schade bovenleiding;1729;29
+2020-03;17/03/20;26;HAREN;Spoorlopers;3171;50
+2020-04;17/04/20;59;SINAAI;Schade treinmaterieel;1034;13
+2020-05;25/05/20;124;LUTTRE;Dringende werken;1138;24
+2020-05;31/05/20;0/2;BRUSSEL-ZUID-ROOSTER NZV;Brand in het spoor;1409;44
+2020-06;11/06/20;124;OBAIX-BUZET;Dringende werken;1101;8
+2020-06;19/06/20;35;AARSCHOT;Schade bovenleiding;1002;48
+2020-06;24/06/20;59;ZWIJNDRECHT;Storing seininrichting;1347;18
+2020-06;25/06/20;2;LEUVEN;Kwaadwillige daad;1173;14
+2020-07;10/07/20;124;UKKEL-KALEVOET;Persoonsongeval;1099;35
+2020-08;6/08/20;35;DIEST;Persoonsongeval;1099;43
+2020-08;7/08/20;124;LINKEBEEK;Brand in het spoor;2344;61
+2020-08;10/08/20;124;NIVELLES;Storing seininrichting;1514;32
+2020-08;31/08/20;36N;HAREN-ZUID;Kwaadwillige daad;1049;8
+2019-01;3/01/19;96;SOIGNIES;Schade bovenleiding;1513;41
+2019-01;14/01/19;161/2;BRUSSEL-NOORD;Storing seininrichting;1096;2
+2019-01;15/01/19;0/2;BRUSSEL-NOORD;Spoorlopers;2799;22
+2019-01;17/01/19;50A;BEERNEM;Persoonsongeval;1214;35
+2019-01;18/01/19;2;LEUVEN;Uitzonderlijke weersomstandigheden;1579;14
+2019-01;27/01/19;-;-;Reizigersstroom of toevloed reizigers;1651;0
+2019-01;27/01/19;35;AARSCHOT;Schade treinmaterieel;3285;106
+2019-02;5/02/19;130;RONET;Kabeldiefstal;1292;70
+2019-02;6/02/19;161;LA HULPE;Lichaam in het spoor;1900;33
+2019-02;14/02/19;96;Y.RUISBROEK;Schade bovenleiding;1038;45
+2019-02;18/02/19;161;OTTIGNIES;Dringende werken;1315;2
+2019-02;25/02/19;161;OTTIGNIES;Dringende werken;1172;0
+2019-03;1/03/19;94;Y.NOORD HALLE;Spoorlopers;1276;8
+2019-03;21/03/19;25;Y.BERCHEM-STADION;Storing seininrichting;1614;10
+2019-04;2/04/19;130;FARCIENNES;Persoonsongeval;2075;58
+2019-04;3/04/19;36;ANS;Kwaadwillige daad;1849;20
+2019-04;26/04/19;50C;BRUSSEL-ZUID;Brand in de nabijheid van het spoor;1720;31
+2019-04;30/04/19;26;Y.NOORD HALLE;Dringende werken;937;27
+2019-05;9/05/19;59;SINAAI;Onsporing goederentrein;4404;132
+2019-05;13/05/19;25;SCHAARBEEK;Spoorlopers;1793;34
+2019-05;15/05/19;25;EPPEGEM;Persoonsongeval;1363;35
+2019-05;27/05/19;0/1;BRUSSEL-NOORD;Aanwezigheid verdacht pakket;9005;100
+2019-06;5/06/19;36;LIEGE-GUILLEMINS;Lichaam in het spoor;1381;26
+2019-06;11/06/19;0/2;BRUSSEL-CENTRAAL;Schade treinmaterieel;1807;11
+2019-06;25/06/19;27;SCHAARBEEK;Schade treinmaterieel;1335;38
+2019-06;25/06/19;12;ANTWERPEN-CENTRAAL;Storing seininrichting;1135;21
+2019-06;26/06/19;36N;Y.ALBERTBRUG;Storing seininrichting;1006;2
+2019-07;4/07/19;0/1;BRUSSEL-CENTRAAL;Reizigersstroom of toevloed reizigers;1001;5
+2019-07;11/07/19;36;LIEGE-GUILLEMINS;Schade treinmaterieel;3620;168
+2019-07;19/07/19;15;LIER;Persoonsongeval;1498;73
+2019-07;25/07/19;89;VICHTE;Schade bovenleiding;2313;43
+2019-07;25/07/19;96N;Y.RUISBROEK;Schade bovenleiding;4527;57
+2019-07;25/07/19;12;ESSEN;Schade bovenleiding;1147;25
+2019-08;20/08/19;59;SINAAI;Schade treinmaterieel;1072;26
+2019-08;31/08/19;25;ANTWERPEN-BERCHEM;Spoorlopers;1865;5
+2019-09;18/09/19;0/4;BRUSSEL-CENTRAAL;Schade treinmaterieel;1888;9
+2019-09;21/09/19;59;BEERVELDE;Ongeval aan een overweg;1230;20
+2019-09;28/09/19;59;Y.WEST BERCHEM;Incident tijdens een werf;1170;51
+2019-10;2/10/19;25;MECHELEN;Schade bovenleiding;3661;85
+2019-10;6/10/19;50A;BRUGGE;Schade treinmaterieel;5552;58
+2019-10;10/10/19;161;RHISNES;Brand in de nabijheid van het spoor;1252;27
+2019-10;30/10/19;50A;ANDERLECHT-ROOSTER OOST;Spoorlopers;2060;9
+2019-11;8/11/19;75;KORTRIJK;Incident tijdens een werf;2002;8
+2019-11;16/11/19;25;VILVOORDE;Incident tijdens een werf;1829;8
+2019-11;19/11/19;124;OBAIX-BUZET;Schade treinmaterieel;1728;20
+2019-12;5/12/19;94;LEUZE;Schade bovenleiding;2219;114
+2019-12;21/12/19;96;RUISBROEK;Persoonsongeval;4436;64
+2019-12;31/12/19;25;MORTSEL-OUDE GOD;Schade bovenleiding;2345;46
+2019-12;31/12/19;0/5;BRUSSEL-KAPELLEKERK;Incident tijdens een werf;1299;26
+2020-01;2/01/20;25;MECHELEN-NEKKERSPOEL;Kwaadwillige daad;1056;14
+2020-01;14/01/20;94;HALLE;Uitzonderlijke weersomstandigheden;1146;22
+2020-01;21/01/20;161;BOSVOORDE;Schade bovenleiding;1649;68
+2020-02;5/02/20;118;OBOURG;Kabeldiefstal;1101;29
+2020-02;13/02/20;59/1;ANTWERPEN-CENTRAAL;Spoorlopers;1220;21
+2020-03;21/03/20;54;WILLEBROEK;Storing aan de infrastructuur;1489;0
+2020-03;2/03/20;36;LANDEN;Laattijdig einde van werken;1071;40
+2020-03;6/03/20;94;HALLE;Dringende werken;1492;23
+2020-03;16/03/20;161;OTTIGNIES;Schade bovenleiding;1529;40
+2020-04;16/03/20;-;-;Maatregelen COVID 19;2100;175
+2020-05;18/05/20;36;KORTENBERG;Persoonsongeval;2330;29
+2020-06;2/06/20;25;ANTWERPEN-BERCHEM;Spoorlopers;1564;10
+2020-06;16/06/20;94;SAINTES;Obstakel in het spoor;1037;25
+2020-06;22/06/20;161;BOSVOORDE;Incident tijdens een werf;1322;6
+2020-06;22/06/20;75;DEINZE;Brand in de nabijheid van het spoor;1077;28
+2020-07;8/07/20;25;MECHELEN-NEKKERSPOEL;Persoonsongeval;2791;80
+2020-07;31/07/20;130;CHATELET;Schade treinmaterieel;1534;42
+2020-08;3/08/20;50;DENDERLEEUW;Dringende werken;6549;2
