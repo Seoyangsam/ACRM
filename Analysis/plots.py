@@ -1,2 +1,12 @@
 from Analysis.data import *
-print(facilities)
+#print(facilities)
+
+
+def plot():
+    echo "plot"
+
+plot()
+
+
+
+
