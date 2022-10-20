@@ -11,6 +11,19 @@ from pandas.api.types import is_datetime64_any_dtype as is_datetime
 #        'Time of real departure', 'Time of planned arrival',
 #        'Time of planned departure']
 #
-# for trip_time in data.full_trips[trips_times]:
-#     if not is_datetime(data.full_trips[trip_time]):
-#         data.facilities[trip_time] = pd.to_datetime(data.facilities[trip_time].astype(str), format='%H:%M:%S')-pd.to_datetime('00:00', format='%H:%M:%S')
+
+data.full_trips['Time of real arrival'] = pd.to_datetime(data.full_trips['Time of real arrival'])
+data.full_trips['Time of planned arrival'] = pd.to_datetime(data.full_trips['Time of planned arrival'])
+data.full_trips['Time of real departure'] = pd.to_datetime(data.full_trips['Time of real departure'])
+data.full_trips['Time of planned departure'] = pd.to_datetime(data.full_trips['Time of planned departure'])
+
+# define function to get delay
+def get_delay(expected, real):
+    if real > expected:
+        delay = (real-expected).seconds
+    else:
+        delay = None
+    return delay
+
+data.full_trips['Delay time'] = data.full_trips.apply(lambda obs: get_delay(obs['Time of planned arrival'], obs['Time of real arrival']), axis = 1)
+print(data.full_trips['Delay time'].head(5))
