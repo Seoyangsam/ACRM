@@ -1,3 +1,5 @@
+import datetime
+
 import pandas as pd
 from pathlib import Path
 from pandas.api.types import is_datetime64_any_dtype as is_datetime
@@ -138,7 +140,7 @@ travelers = travelers.replace({"Station": utils.Dict})
 #        'Time of real departure', 'Time of planned arrival',
 #        'Time of planned departure']
 #
-
+full_trips['Date of real arrival'] = pd.to_datetime(full_trips['Date of real arrival'])
 full_trips['Time of real arrival'] = pd.to_datetime(full_trips['Time of real arrival'])
 full_trips['Time of planned arrival'] = pd.to_datetime(full_trips['Time of planned arrival'])
 full_trips['Time of real departure'] = pd.to_datetime(full_trips['Time of real departure'])
@@ -155,9 +157,15 @@ def get_delay(expected, real):
 full_trips['Delay time'] = full_trips.apply(lambda obs: get_delay(obs['Time of planned arrival'], obs['Time of real arrival']), axis = 1)
 
 
+
+
+##for i in range(24):    bliep =
+
+
+
 #vraag3: Plot the number of stations per city for cities with multiple stations.
 
-geg = pd.read_csv(r'C:\users\Annelien\Documents\SCHOOL\ACRM\Project NMBS\group7-group-assignment-\Data\facilities.csv', sep=',')
+geg = pd.read_csv(path / "facilities.csv")
 df = pd.DataFrame(geg)
 df2 = df.groupby('city').size().reset_index(name='count') # head(5)dan toon je maar 5lijnen, eruit halen op termijn
 #groepeer per city en geef de lengte hier mee
