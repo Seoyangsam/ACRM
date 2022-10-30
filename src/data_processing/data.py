@@ -32,7 +32,7 @@ stations = pd.read_csv(path / "stations.csv")
 stops = pd.read_csv(path / "stops.csv")
 
 # This file describes the average number of travelers per station. URI: The URI identifying this station.
-travelers = pd.read_excel(path / "travelers.xlsx", skiprows=1)
+travelers = pd.read_csv(path / "travelers.csv", delimiter=";")
 travelers = travelers.rename({"Avg number of travelers in the week": "week",
                               "Avg number of travelers on Saturday": "saturday",
                               "Avg number of travelers on Sunday": "sunday"}, axis=1)
