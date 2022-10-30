@@ -46,46 +46,6 @@ sporen= gpd.read_file(path / "geosporen"/ "geosporen.shp")
 
 inhabitants_per_province = pd.read_excel(path / "inhabitants_per_province.xlsx")
 
-# for each value i of dataframe["Route"], get routes[i]["hey"] and store it in a dataframe["temps"]
-def get_route_time(df, routes, key):
-    df[key] = df["Route"].apply(lambda i: routes[i][key])
-    return df
-
-# for each value of a column from a dataframe, divide the column by 7 and store it in a new column, using lambda function
-def divide_by_7(df, column):
-    df[column + "_per_day"] = df[column].apply(lambda x: x / 7)
-    return df
-
-# get the average value of the column ["Delay_frequency"] per distinct value of another column ["Re"] and store it in a new column ["Re_new"]. Put all this in a new dataframe
-# with columns ["Re_new", "Delay_frequency" , "Re"]
-def get_average_per(df, column, per):
-    df = df.groupby([per])[column].mean().reset_index(name=column + "_per_" + per)
-    return df
-
-# create a new dataframe that takes the columns ["stations, "date"] from the dataframe trips
-new_df= full_trips[["Station", "Date"]]
-
-#dtop the column "Route" from the dataframe trips
-full_trips = full_trips.drop(columns=["Route"])
-
-#  get outliers from a column with 5% significance level
-def get_outliers(df, column):
-    q1 = df[column].quantile(0.25)
-    q3 = df[column].quantile(0.75)
-    iqr = q3 - q1
-    outliers = df[(df[column] < q1 - 1.5 * iqr) | (df[column] > q3 + 1.5 * iqr)]
-    return outliers
-
-
-
-
-
-
-
-
-
-
-
 
 #########################################################  FACILITIES  ##########################################################
 # impute the URI

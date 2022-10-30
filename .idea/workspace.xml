@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="Q10-13 solves first version">
-      <change afterPath="$PROJECT_DIR$/Data/Unprocessed/inhabitants_per_province.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Unprocessed/travelers_correct.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q12.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q13.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_processing/importdataforjupyterntbk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q10.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q11.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q11.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_processing/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_processing/data_processing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing/data_processing.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="Q10-13 solves first version" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +37,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/maxwang/PycharmProjects/group7-group-assignment-/src/data_processing",
+    "last_opened_file_path": "/Users/maxwang/PycharmProjects/group7-group-assignment-/src",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
@@ -59,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/data_processing" />
     </key>
   </component>
@@ -135,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666616314431</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Q10-13 solves first version">
+      <created>1667121277882</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667121277882</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +162,7 @@
     <MESSAGE value="Added the GetYouStarted Pt2.py and replaced all missing names from travelers by the correct names for the merge" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main' into main" />
     <MESSAGE value="trips delay time calculated" />
-    <option name="LAST_COMMIT_MESSAGE" value="trips delay time calculated" />
+    <MESSAGE value="Q10-13 solves first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q10-13 solves first version" />
   </component>
 </project>
