@@ -26,8 +26,6 @@ stations = pd.read_csv(path / "stations.csv")
 # Each platform is a separate stop location.
 stops = pd.read_csv(path / "stops.csv")
 
-# This file describes the average number of travelers per station. URI: The URI identifying this station.
-stations = pd.read_csv(path / "stations.csv")
 
 travelers = pd.read_csv(path / "travelers_correct.csv", delimiter=';')
 
@@ -138,21 +136,17 @@ travelers['Station'] = travelers['Station'].str.lower()
 travelers = travelers.replace({"Station": utils.Dict})
 
 #########################################################  TRIPS  ##########################################################
-# Change all dates and times to datetime STILL NEEDS TO BE CHECKED
-# trips_dates= ["Date of departure", 'Date of planned arrival',
-#        'Date of planned departure', 'Date of real arrival',
-#        'Date of real departure']
-# trips_times = ['Time of real arrival',
-#        'Time of real departure', 'Time of planned arrival',
-#        'Time of planned departure']
-#
-# change 'time of real arrival' to pd.datetime
 
-
+# change full_trips["Time of real arrival"] to pd.datetime but only keep the hours minutes and seconds or else they will all have the same date(current day)
 full_trips['Time of real arrival'] = pd.to_datetime(full_trips['Time of real arrival'])
 full_trips['Time of planned arrival'] = pd.to_datetime(full_trips['Time of planned arrival'])
 full_trips['Time of real departure'] = pd.to_datetime(full_trips['Time of real departure'])
 full_trips['Time of planned departure'] = pd.to_datetime(full_trips['Time of planned departure'])
+
+#standardize name for trips
+full_trips["Name of the stop"] = full_trips["Name of the stop"].str.lower()
+full_trips = full_trips.replace({"Name of the stop": utils.dict2})
+
 
 
 # define function to get delay
