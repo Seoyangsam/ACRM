@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="65 stations from trips need a name change , see test.ipynb">
-      <change afterPath="$PROJECT_DIR$/src/Q7anne.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q9anne.ipynb" afterDir="false" />
+    <list default="true" id="774e4b56-7d62-4d35-9a94-6332724f48cc" name="Changes" comment="Q14 mapped stations with rare facilities">
+      <change afterPath="$PROJECT_DIR$/src/Q16.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q10.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q10.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q11.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q11.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q7.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q9.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q9.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_processing/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,92 +15,65 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Jupyter Notebook" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="JonaVanEeckhoutte &lt;jonavaneeckhoutte@hotmail.com&gt;" />
         <option value="seoyangsam &lt;robert.xu@wur.nl&gt;" />
+        <option value="JonaVanEeckhoutte &lt;jonavaneeckhoutte@hotmail.com&gt;" />
       </list>
     </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GDU0MBGcor1PadD39OGYJqUxLz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/maxwang/PycharmProjects/group7-group-assignment-/src",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/seoyangsam/PycharmProjects/group7-group-assignment-&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/data_processing" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="data" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="group7-group-assignment-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data_processing/data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.data" />
-      </list>
-    </recent_temporary>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="65 stations from trips need a name change , see test.ipynb" />
+      <changelist id="774e4b56-7d62-4d35-9a94-6332724f48cc" name="Changes" comment="" />
       <created>1665922423292</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665922423292</updated>
-      <workItem from="1667147406826" duration="361000" />
-      <workItem from="1667147773003" duration="212000" />
-      <workItem from="1667148079931" duration="297000" />
-      <workItem from="1667164733942" duration="462000" />
-      <workItem from="1667165200586" duration="14896000" />
+      <workItem from="1667148919207" duration="2451000" />
+      <workItem from="1667158527960" duration="4362000" />
+      <workItem from="1667163402690" duration="3293000" />
+      <workItem from="1667166793840" duration="550000" />
+      <workItem from="1667167374471" duration="659000" />
+      <workItem from="1667168981549" duration="7609000" />
     </task>
     <task id="LOCAL-00001" summary="Added the GetYouStarted Pt2.py and replaced all missing names from travelers by the correct names for the merge">
       <created>1665956887771</created>
@@ -138,35 +103,7 @@
       <option name="project" value="LOCAL" />
       <updated>1665996263337</updated>
     </task>
-    <task id="LOCAL-00005" summary="trips delay time calculated">
-      <created>1666616314431</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1666616314431</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Q10-13 solves first version">
-      <created>1667121277882</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1667121277882</updated>
-    </task>
-    <task id="LOCAL-00007" summary="change in data.py">
-      <created>1667122028882</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1667122028883</updated>
-    </task>
-    <task id="LOCAL-00008" summary="65 stations from trips need a name change , see test.ipynb">
-      <created>1667134856158</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1667134856158</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,26 +135,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added the GetYouStarted Pt2.py and replaced all missing names from travelers by the correct names for the merge" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main' into main" />
-    <MESSAGE value="trips delay time calculated" />
-    <MESSAGE value="Q10-13 solves first version" />
-    <MESSAGE value="change in data.py" />
-    <MESSAGE value="65 stations from trips need a name change , see test.ipynb" />
-    <option name="LAST_COMMIT_MESSAGE" value="65 stations from trips need a name change , see test.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main' into main" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook:///Users/maxwang/PycharmProjects/group7-group-assignment-/src/Q10.ipynb</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/utils.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/group7_group_assignment_$data.coverage" NAME="data Coverage Results" MODIFIED="1667420689720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_processing" />
   </component>
 </project>

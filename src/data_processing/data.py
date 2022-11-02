@@ -142,6 +142,7 @@ full_trips['Time of real arrival'] = pd.to_datetime(full_trips['Time of real arr
 full_trips['Time of planned arrival'] = pd.to_datetime(full_trips['Time of planned arrival'])
 full_trips['Time of real departure'] = pd.to_datetime(full_trips['Time of real departure'])
 full_trips['Time of planned departure'] = pd.to_datetime(full_trips['Time of planned departure'])
+full_trips['Date of departure'] = pd.to_datetime(full_trips['Date of departure'], format='%Y-%m-%d')
 
 #standardize name for trips
 full_trips["Name of the stop"] = full_trips["Name of the stop"].str.lower()
