@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="Q21 half finished">
+    <list default="true" id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="65 stations from trips need a name change , see test.ipynb">
+      <change afterPath="$PROJECT_DIR$/src/Q7anne.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q9anne.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q13.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q21.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q21.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q22.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q22.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q10.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q10.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q11.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q11.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q7.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q9.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q9.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_processing/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -28,6 +36,7 @@
     </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,19 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/maxwang/PycharmProjects/group7-group-assignment-/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/maxwang/PycharmProjects/group7-group-assignment-/src",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -89,11 +99,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="Q21 half finished" />
+      <changelist id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="65 stations from trips need a name change , see test.ipynb" />
       <created>1665922423292</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665922423292</updated>
+      <workItem from="1667147406826" duration="361000" />
+      <workItem from="1667147773003" duration="212000" />
+      <workItem from="1667148079931" duration="297000" />
+      <workItem from="1667164733942" duration="462000" />
+      <workItem from="1667165200586" duration="14896000" />
     </task>
     <task id="LOCAL-00001" summary="Added the GetYouStarted Pt2.py and replaced all missing names from travelers by the correct names for the merge">
       <created>1665956887771</created>
@@ -137,15 +152,25 @@
       <option name="project" value="LOCAL" />
       <updated>1667121277882</updated>
     </task>
-    <task id="LOCAL-00007" summary="Q21 half finished">
-      <created>1667145528561</created>
+    <task id="LOCAL-00007" summary="change in data.py">
+      <created>1667122028882</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1667145528561</updated>
+      <updated>1667122028883</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="65 stations from trips need a name change , see test.ipynb">
+      <created>1667134856158</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667134856158</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -175,7 +200,24 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main' into main" />
     <MESSAGE value="trips delay time calculated" />
     <MESSAGE value="Q10-13 solves first version" />
-    <MESSAGE value="Q21 half finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q21 half finished" />
+    <MESSAGE value="change in data.py" />
+    <MESSAGE value="65 stations from trips need a name change , see test.ipynb" />
+    <option name="LAST_COMMIT_MESSAGE" value="65 stations from trips need a name change , see test.ipynb" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/maxwang/PycharmProjects/group7-group-assignment-/src/Q10.ipynb</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/utils.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
