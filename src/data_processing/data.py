@@ -49,17 +49,17 @@ inhabitants_per_city =pd.read_excel(path/ "BevolkingscijfersPerGemeente.xlsx")
 
 stations_distance = gpd.read_file(path / "station_to_station/station_to_station.shp")
 
-punctuality_per_traintype = pd.read_csv(path / "data_punctualite_typedetrain.csv")
+punctuality_per_traintype = pd.read_csv(path / "data_punctualite_typedetrain.csv", delimiter=';')
 
-evolution_trainpaths = pd.read_csv(path / "evolutie-van-het-aantal-effectieve-rijpaden.csv")
+evolution_trainpaths = pd.read_csv(path / "evolutie-van-het-aantal-effectieve-rijpaden.csv", delimiter=';')
 
-punctuality_main_connections = pd.read_csv(path / "gegevens-mobipulse.csv")
+punctuality_main_connections = pd.read_csv(path / "gegevens-mobipulse.csv", delimiter=';')
 
-km_roads_amount_of_trains = pd.read_csv(path / "kilometers-sporen-en-aantal-spoortoestellen-per-gewest.csv")
+km_roads_amount_of_trains = pd.read_csv(path / "kilometers-sporen-en-aantal-spoortoestellen-per-gewest.csv", delimiter=';')
 
-ponctuality_in_brussels = pd.read_csv(path / "stiptheid-bij-aankomst-in-brussels-per-moment.csv")
+ponctuality_in_brussels = pd.read_csv(path / "stiptheid-bij-aankomst-in-brussels-per-moment.csv", delimiter=';')
 
-punctuality_in_biggest_stations = pd.read_csv(path / "stiptheid-in-grote-stations-per-maand.csv")
+punctuality_in_biggest_stations = pd.read_csv(path / "stiptheid-in-grote-stations-per-maand.csv", delimiter=';')
 
 
 
