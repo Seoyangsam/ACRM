@@ -44,6 +44,8 @@ sporen= gpd.read_file(path / "geosporen"/ "geosporen.shp")
 
 inhabitants_per_province = pd.read_excel(path / "inhabitants_per_province.xlsx")
 
+# inwoners per gemeente
+inhabitants_per_city =pd.read_excel(path/ "BevolkingscijfersPerGemeente.xlsx")
 
 #########################################################  FACILITIES  ##########################################################
 # impute the URI
@@ -137,12 +139,51 @@ travelers = travelers.replace({"Station": utils.Dict})
 
 #########################################################  TRIPS  ##########################################################
 
-# change full_trips["Time of real arrival"] to pd.datetime but only keep the hours minutes and seconds or else they will all have the same date(current day)
+
 full_trips['Time of real arrival'] = pd.to_datetime(full_trips['Time of real arrival'])
 full_trips['Time of planned arrival'] = pd.to_datetime(full_trips['Time of planned arrival'])
 full_trips['Time of real departure'] = pd.to_datetime(full_trips['Time of real departure'])
 full_trips['Time of planned departure'] = pd.to_datetime(full_trips['Time of planned departure'])
 full_trips['Date of departure'] = pd.to_datetime(full_trips['Date of departure'], format='%Y-%m-%d')
+
+full_trips['Date of real arrival'] = pd.to_datetime(full_trips['Date of real arrival'])
+full_trips['Date of planned arrival'] = pd.to_datetime(full_trips['Date of planned arrival'])
+full_trips['Date of real departure'] = pd.to_datetime(full_trips['Date of real departure'])
+full_trips['Date of planned departure'] = pd.to_datetime(full_trips['Date of planned departure'])
+
+full_trips['Time of real arrival'] = full_trips.apply(lambda x: x['Date of real arrival'].replace(hour=x['Time of real arrival'].hour, minute=x['Time of real arrival'].minute, second=x['Time of real arrival'].second), axis=1)
+full_trips['Time of planned arrival'] = full_trips.apply(lambda x: x['Date of planned arrival'].replace(hour=x['Time of planned arrival'].hour, minute=x['Time of planned arrival'].minute, second=x['Time of planned arrival'].second), axis=1)
+full_trips['Time of real departure'] = full_trips.apply(lambda x: x['Date of real departure'].replace(hour=x['Time of real departure'].hour, minute=x['Time of real departure'].minute, second=x['Time of real departure'].second), axis=1)
+full_trips['Time of planned departure'] = full_trips.apply(lambda x: x['Date of planned departure'].replace(hour=x['Time of planned departure'].hour, minute=x['Time of planned departure'].minute, second=x['Time of planned departure'].second), axis=1)
+
+
+# full_trips["Time of real arrival"] = ["Date of real arrival"].dt.floor('D') + pd.to_timedelta(full_trips["Time of real arrival"])
+# full_trips["Time of planned arrival"] = ["Date of planned arrival"].dt.floor('D') + pd.to_timedelta(full_trips["Time of planned arrival"])
+# full_trips["Time of real departure"] =["Date of real departure"].dt.floor('D') + pd.to_timedelta(full_trips["Time of real departure"])
+# full_trips["Time of planned departure"] =["Date of planned departure"].dt.floor('D') + pd.to_timedelta(full_trips["Time of planned departure"])
+#
+
+
+# # # Use pandas to change the day of full_trips["Time of real arrival"] to the day of full_trips["Day of real arrival"]
+# # full_trips["Time of real arrival"] = full_trips["Time of real arrival"].dt.replace(
+# #     day=full_trips["Day of real arrival"].dt.day)
+# # full_trips["Time of planned arrival"] = full_trips["Time of planned arrival"].dt.replace(
+# #     day=full_trips["Day of planned arrival"].dt.day)
+# # full_trips["Time of real departure"] = full_trips["Time of real departure"].dt.replace(
+# #     day=full_trips["Day of real departure"].dt.day)
+# # full_trips["Time of planned departure"] = full_trips["Time of planned departure"].dt.replace(
+# #     day=full_trips["Day of planned departure"].dt.day)
+#
+# full_trips["Time of real arrival"] = full_trips["Date of real arrival"].dt.floor('D') + full_trips["Time of real arrival"]
+# full_trips["Time of planned arrival"] = full_trips["Date of planned arrival"].dt.floor('D') + full_trips[
+#     "Time of planned arrival"]
+# full_trips["Time of real departure"] = full_trips["Date of real departure"].dt.floor('D') + full_trips[
+#     "Time of real departure"]
+# full_trips["Time of planned departure"] = full_trips["Date of planned departure"].dt.floor('D') + full_trips[
+#     "Time of planned departure"]
+
+
+
 
 #standardize name for trips
 full_trips["Name of the stop"] = full_trips["Name of the stop"].str.lower()
