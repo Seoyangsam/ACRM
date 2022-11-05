@@ -47,6 +47,22 @@ inhabitants_per_province = pd.read_excel(path / "inhabitants_per_province.xlsx")
 # inwoners per gemeente
 inhabitants_per_city =pd.read_excel(path/ "BevolkingscijfersPerGemeente.xlsx")
 
+stations_distance = gpd.read_file(path / "station_to_station/station_to_station.shp")
+
+punctuality_per_traintype = pd.read_csv(path / "data_punctualite_typedetrain.csv")
+
+evolution_trainpaths = pd.read_csv(path / "evolutie-van-het-aantal-effectieve-rijpaden.csv")
+
+punctuality_main_connections = pd.read_csv(path / "gegevens-mobipulse.csv")
+
+km_roads_amount_of_trains = pd.read_csv(path / "kilometers-sporen-en-aantal-spoortoestellen-per-gewest.csv")
+
+ponctuality_in_brussels = pd.read_csv(path / "stiptheid-bij-aankomst-in-brussels-per-moment.csv")
+
+punctuality_in_biggest_stations = pd.read_csv(path / "stiptheid-in-grote-stations-per-maand.csv")
+
+
+
 #########################################################  FACILITIES  ##########################################################
 # impute the URI
 facilities['URI'] = facilities['URI'].str[-9:]
@@ -104,6 +120,8 @@ incidents['Place'] = incidents['Place'].str.lower()
 #########################################################  SATISFACTION  ##########################################################
 # drop the rows that have null values
 satisfaction.dropna(inplace=True)
+satisfaction["station"] = satisfaction["station"].str.lower()
+satisfaction = satisfaction.replace({"station": utils.dict2})
 
 #########################################################  STATIONS  ##########################################################
 # URI imputation to only get the digits
