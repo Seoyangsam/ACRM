@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3fd02e6-cb92-4ecb-a4e2-3dcf150ca5f4" name="Changes" comment="Link btwn size of city &amp; avg delay time">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q6.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q3.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667756438832</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Link btwn size of city &amp; avg delay time">
+      <created>1667775190628</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667775190628</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
