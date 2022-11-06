@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3fd02e6-cb92-4ecb-a4e2-3dcf150ca5f4" name="Changes" comment="Q14 extra insight">
+    <list default="true" id="f3fd02e6-cb92-4ecb-a4e2-3dcf150ca5f4" name="Changes" comment="Link btwn size of city &amp; avg delay time">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Q6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q6.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667687727213</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Link btwn size of city &amp; avg delay time">
+      <created>1667756438832</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667756438832</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +214,8 @@
     <MESSAGE value="change in data.py" />
     <MESSAGE value="65 stations from trips need a name change , see test.ipynb" />
     <MESSAGE value="Q14 extra insight" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q14 extra insight" />
+    <MESSAGE value="Link btwn size of city &amp; avg delay time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link btwn size of city &amp; avg delay time" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
