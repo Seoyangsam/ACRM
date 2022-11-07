@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="added extra datasets">
+    <list default="true" id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Unprocessed/data_punctualite_typedetrain.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Unprocessed/evolutie-van-het-aantal-effectieve-rijpaden.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Unprocessed/gegevens-mobipulse.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Unprocessed/kilometers-sporen-en-aantal-spoortoestellen-per-gewest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Unprocessed/stiptheid-bij-aankomst-in-brussels-per-moment.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Unprocessed/stiptheid-in-grote-stations-per-maand.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Extra1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/group7-group-assignment-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/group7-group-assignment-.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/GetYouStartedPt3 (1).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Documents/GetYouStartedPt3 (1).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q13.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q16.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q16.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q17.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q17.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q18.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q18.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Q2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q7.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q21.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q21.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q22.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q22.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_processing/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing/data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +46,6 @@
     </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,7 +76,6 @@
       <recent name="$PROJECT_DIR$/src/data_processing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Data/Unprocessed" />
       <recent name="$PROJECT_DIR$/Data" />
     </key>
   </component>
@@ -164,14 +178,7 @@
       <option name="project" value="LOCAL" />
       <updated>1667134856158</updated>
     </task>
-    <task id="LOCAL-00009" summary="added extra datasets">
-      <created>1667656447187</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1667656447187</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,17 +214,11 @@
     <MESSAGE value="Q10-13 solves first version" />
     <MESSAGE value="change in data.py" />
     <MESSAGE value="65 stations from trips need a name change , see test.ipynb" />
-    <MESSAGE value="added extra datasets" />
-    <option name="LAST_COMMIT_MESSAGE" value="added extra datasets" />
+    <option name="LAST_COMMIT_MESSAGE" value="65 stations from trips need a name change , see test.ipynb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook:///Users/maxwang/PycharmProjects/group7-group-assignment-/src/Q10.ipynb</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/utils.py</url>
           <line>73</line>
@@ -225,9 +226,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/group7_group_assignment_$data.coverage" NAME="data Coverage Results" MODIFIED="1667656369545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data_processing" />
-    <SUITE FILE_PATH="coverage/group7_group_assignment_$test.coverage" NAME="test Coverage Results" MODIFIED="1667434977061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
