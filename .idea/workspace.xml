@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="extra insights">
-      <change afterPath="$PROJECT_DIR$/src/Extra1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q10.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q10.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q11.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q11.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q12.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q5.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q6.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q7.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q8.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q8.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q9.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q9.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +105,7 @@
       <workItem from="1667724668053" duration="8802000" />
       <workItem from="1667734154968" duration="18640000" />
       <workItem from="1667765681835" duration="1513000" />
-      <workItem from="1667775466005" duration="15632000" />
+      <workItem from="1667775466005" duration="16335000" />
     </task>
     <task id="LOCAL-00001" summary="Added the GetYouStarted Pt2.py and replaced all missing names from travelers by the correct names for the merge">
       <created>1665956887771</created>
@@ -186,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667775226803</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="extra insights">
+      <created>1667837448521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667837448521</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
