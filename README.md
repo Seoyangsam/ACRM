@@ -2,8 +2,8 @@
 
 This is the repository of our group project of course Analytical Customer Relationship Management in UGent. This project is about how can we improve the reputation of NMBS, the national railway company of Belgium, via statistical analysis. 
 
-Following questions were answered: 
-2. Plot the average delay time per provider (EUROSTAR, NMBS, THALYS).
+In our project, following 21 base questions were answered:  
+2. Plot the average delay time per provider (EUROSTAR, NMBS, THALYS)./n
 3. Plot the number of stations per city for cities with multiple stations.
 4. Plot the number of stations per city in function of number of inhabitants.
 5. Plot the distribution of delay times.
