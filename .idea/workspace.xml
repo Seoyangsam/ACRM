@@ -2,14 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="extra insights">
-      <change beforePath="$PROJECT_DIR$/.idea/group7-group-assignment-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/group7-group-assignment-.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q10.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q10.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q11.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q11.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q12.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/GetYouStartedPt2 (2).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/GetYouStartedPt2 (2).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/GetYouStartedPt3 (1).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/GetYouStartedPt3 (1).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/ReadingInDataWithPandas (3).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/ReadingInDataWithPandas (3).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents/~$ta_Description.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/~$ta_Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Extra1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Extra1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetYouStarted Pt2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/GetYouStarted Pt2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetYouStartedPt3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/GetYouStartedPt3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Q13.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_processing/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q14.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q14.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q15.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q15.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q16.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q16.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q17.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q17.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q18.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q18.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q19.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q19.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q20.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q20.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q21.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q21.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q22.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q22.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q6.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q7.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q8.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q8.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_processing/data_processing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/data_processing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_processing/importdataforjupyterntbk.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/importdataforjupyterntbk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_processing/trips.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/trips.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old_versions/Q10old.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Q10old.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old_versions/Q2anne.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Q2anne.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old_versions/Q3anne.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Q3anne.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old_versions/Q4fout.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Q4fout.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old_versions/Q4wrong.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Q4wrong.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old_versions/Q5anne.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Q5anne.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old_versions/Q6anne.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Q6anne.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old_versions/Q7anne.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Q7anne.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old_versions/Q8anne.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Q8anne.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old_versions/Q9anne.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/Q9anne.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin_unused_files/tests.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +76,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/maxwang/PycharmProjects/group7-group-assignment-/src",
-    "settings.editor.selected.configurable": "Jupyter Settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maxwang/PycharmProjects/group7-group-assignment-/src&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Jupyter Settings&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/data_processing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/old_versions" />
       <recent name="$PROJECT_DIR$/Data" />
     </key>
   </component>
@@ -263,17 +297,12 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/utils.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/test.py</url>
+          <url>file://$PROJECT_DIR$/src/bin_unused_files/test.py</url>
           <line>67</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/test.py</url>
+          <url>file://$PROJECT_DIR$/src/bin_unused_files/test.py</url>
           <line>217</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
