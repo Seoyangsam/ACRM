@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb24f7c2-2570-4f8e-8112-88d2f87fcda4" name="Changes" comment="extra insights">
-      <change afterPath="$PROJECT_DIR$/src/Q4.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/old_versions/Q4wrong.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/group7-group-assignment-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/group7-group-assignment-.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q4anne.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q4wrong.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q6.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q7.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q10.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q10.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q11.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q11.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q12.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q13.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_processing/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing/data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,33 +43,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/maxwang/PycharmProjects/group7-group-assignment-/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Jupyter Settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/maxwang/PycharmProjects/group7-group-assignment-/src",
+    "settings.editor.selected.configurable": "Jupyter Settings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/data_processing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Data/Unprocessed" />
-      <recent name="$PROJECT_DIR$/Data/Processed" />
-      <recent name="$PROJECT_DIR$/src/old_versions" />
       <recent name="$PROJECT_DIR$/Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager">
     <configuration name="data" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="group7-group-assignment-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,31 +89,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="group7-group-assignment-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.data" />
       </list>
     </recent_temporary>
@@ -141,8 +115,6 @@
       <workItem from="1667838095956" duration="174000" />
       <workItem from="1667838288793" duration="1123000" />
       <workItem from="1667839431808" duration="1161000" />
-      <workItem from="1667936193116" duration="1564000" />
-      <workItem from="1667937806392" duration="4931000" />
     </task>
     <task id="LOCAL-00001" summary="Added the GetYouStarted Pt2.py and replaced all missing names from travelers by the correct names for the merge">
       <created>1665956887771</created>
@@ -242,21 +214,7 @@
       <option name="project" value="LOCAL" />
       <updated>1667840115902</updated>
     </task>
-    <task id="LOCAL-00015" summary="extra insights">
-      <created>1667921794741</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1667921794741</updated>
-    </task>
-    <task id="LOCAL-00016" summary="extra insights">
-      <created>1667930127153</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1667930127153</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,11 +261,6 @@
           <url>notebook:///Users/maxwang/PycharmProjects/group7-group-assignment-/src/Q10.ipynb</url>
           <line>12</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook:///Users/maxwang/PycharmProjects/group7-group-assignment-/src/Q4wrong.ipynb</url>
-          <line>6</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/utils.py</url>
