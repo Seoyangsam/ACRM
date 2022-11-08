@@ -1,0 +1,453 @@
+0, Gemeente, aantal
+0,aalst,88000
+1,aalter, 29.000
+2,aarschot,30175
+3,aarsele,2978
+4,deux-acren,3988
+5,aiseau-presles,10500
+6,alken,11.685 
+7,amay,14000
+8,ampsin,3260
+9,seilles,5000
+10,angleur,10136
+11,ans,28000
+12,anseremme,2064
+13,antoing,7500 
+14,berchem,43433
+15,antwerpen,506922
+16,anzegem,14000
+17,,2993
+18,watermaal-bosvoorde,25000
+19,grez doiceau,13000
+20,arlon,30.000 
+21,asse,29,334
+22,assesse,7.000 
+23,ath,29.000 
+24,athus,7979
+25,aubange,17.000 
+26,auvelais,28.000 
+27,aye,2877
+28,aywaille,12.000 
+29,baasrode-zuid,6345
+30,balegem - oosterzele,3707
+31,balen,22000
+32,bambrugge - erpe-mere,1829
+33,barvaux,475
+34,bas-oha,1711
+35,wavre,34000
+36,bastogne,16000
+38,beauraing,9000
+39,beernem,15000 
+40,beersel,23578
+41,beervelde,2816
+42,begijnendijk,9468
+43,ham-sur-heure-nalinnes,13500
+44,bellem,2258
+45,belsele,9742
+46,beringen,46558
+47,berlaar,11000
+48,bertrix,8000
+49,berzee,804
+50,beuzet,1371
+51,beveren-waas,49000
+52,bierges,5058
+53,bierset,1499
+54,bilzen,32000
+55,binche,33000
+56,bissegem,15533
+57,blankenberge,20400
+58,chastre,7000
+59,blaton,11916
+60,waremme,15000
+"61,brussel,176 545	"
+62,boechout,13000
+63,genk,66000
+64,bomal,1469
+65,booischot,6000
+66,boom,18000
+67,boortmeerbeek,11531
+68,bornem,13633
+69,bosvoorde,24871
+70,boussu,19000
+71,grobbendonk,11236
+72,strepy-bracquegnies,8000
+73,braine l'alleud,40000
+74,braine-le-comte,21901
+75,liege (bressoux),12 721 
+76,brugelette,3000
+77,brugge,118446
+78,sint-jans-molenbeek,97000
+79,zaventem,29034
+80,vilvoorde,37964
+81,buggenhout,14000
+82,buizingen-halle,6502
+83,erpe-mere,20611
+84,callenelle,597
+85,cambron-casteau,344
+86,carlsbourg,953
+87,carnières,8135
+88,céroux-mousty,4800
+89,gembloux,23705
+91,charleroi,203464
+92,chaudfontaine,21000
+93,chatelet,36000
+94,chenee,9101
+95,ciney,16000
+96,comblain la tour,5321
+97,komen,18000
+98,stavelot,6867
+99,couillet,12546 
+100,courcelles,31400
+101,courrière,10554
+102,court-saint-etienne,10
+103,couvin,13800
+104,sint-genesius-rode,17975
+105,de panne,11000
+106,de pinte,10 702
+107,deinze,44319
+108,denderleeuw,20338
+109,dendermonde,45849
+110,diegem,5992
+111,diepenbeek,19000
+112,uccle,85099
+113,diest,22740
+114,diksmuide,16828
+115,dilbeek,39585
+116,dinant,13000
+117,bilstain,1491
+118,gent,263429
+119,duffel,17000
+120,duinbergen,12828
+121,haaltert,18000
+122,eeklo,21000
+123,ninove,39000
+124,eine,4438
+125,eke - nazareth,11701
+126,antwerpen (ekeren),23013
+127,enghien,14000
+128,engis,6000
+129,eppegem,4548
+130,erbisoeul,2051
+131,erembodegem,11804
+132,erps-kwerps,5879
+133,erquelinnes,10000
+134,esneux,13158
+135,essen,582415
+136,ternat,14765
+137,elsene,85000 
+138,eupen,19000 
+139,evergem,35000 
+140,ezemaal,471
+141,familleureux,977
+142,farciennes,11000
+143,fexhe-le-haut-clocher,3000
+144,flawinne,4574
+145,flemalle,26000
+146,fleurus,22480
+147,floreffe,8000
+148,florée,1000
+149,forchies,5783
+150,forrieres (nassogne),1376
+151,trooz,8000
+152,frameries,21500
+153,theux,11.995 
+154,franiere,1800 
+155,froyennes,2177
+156,galmaarden,8158
+157,gavere,12600
+158,gedinne,4500
+159,geel,40000
+160,gendron-celles,532
+161,genly,1035
+162,gentbrugge,7344
+163,genval,8449
+164,geraardsbergen,34000
+165,ghlin,8620
+166,bassenge (glons),2517
+167,godarville,2448
+168,godinne,2405
+169,gontrode - melle,1000
+170,gouvy,4931
+171,gouy-lez-pieton,3182
+172,graide,813
+173,hoeilaart,10074
+174,groot-bijgaarden - dilbeek,7243
+175,grupont,190
+176,haacht,13729
+177,habay,8000 
+178,hainin,906
+179,halanzy,2500
+180,halle,31108
+181,ham sur sambre,19146
+182,tildonk-hambos,3971
+183,hamoir,3500
+184,hamont,14294
+185,nevele,11000
+186,harchies,1500
+187,harelbeke,29000
+188,haren,17950
+189,hasselt,78364
+190,saint-georges-sur-meuse,6500
+191,haversin,17007
+192,havré,172366
+193,heide,460
+194,knokke-heist,32 863
+195,heist-op-den-berg,43590
+196,heizijde,1600
+197,hemiksem,11000
+198,hennuyères,3200
+199,herent,19395
+200,herentals,28477
+201,hergenrath,2804
+202,herne,6483
+203,herseaux,9082
+204,herstal,38000
+205,herzele,18000
+206,heusden-zolder,33000
+207,hever,5899
+208,heverlee,22500
+209,antwerpen (hoboken),34443
+210,hofstade,5980
+211,linkebeek,4710
+212,lessines,18000
+213,lobbes,5500
+214,houyet,4557 
+215,hove,8190
+216,huizingen-beersel,3145
+217,huy,21000
+218,iddergem - denderleeuw,2774
+219,idegem,1731
+220,ieper,35000
+221,ingelmunster,11100
+222,izegem,27238
+223,jambes,19399
+224,jamioulx,1557
+225,jemappes,10120
+226,jemeppe-sur-meuse,10000
+227,jemeppe-sur-sambre,19000
+228,jette,52000
+229,jurbise,10500
+230,kalmthout,18 709
+231,kapelle-op-den-bos,8916
+232,kapellen,26400
+233,kessel,4197
+234,knokke,32 863
+235,veurne,12297
+236,kontich,21340
+237,kortemark,12693
+238,kortenberg,18424
+239,kortrijk,78000
+240,wetteren,3741 
+241,la hulpe,7000
+242,la louviere,80000
+243,landegem,3438
+244,montigny-le-tilleul,10000
+245,landen,14682
+246,oosterzele,13000
+247,lebbeke,19000
+248,lede,19065
+249,leignon,2258
+250,lembeek-halle,7256
+251,lens,30413
+252,leopoldsburg,16000
+253,leuven,102122
+254,leuze-en-hainaut,13000
+255,leval-trahegnies,6475
+256,libramont-chevigny,10459
+257,lichtervelde,8700
+258,liedekerke,12119
+259,lier,37292
+260,lierde,6497
+261,liers-juprelle,9000
+262,ligny,2000
+263,lillois-witterzee,1200
+264,limal,2250
+265,lissewege,7063
+266,liege,700000
+267,lodelinsart,6802
+268,lokeren,39546
+269,lommel,34079
+270,londerzeel,17452
+271,lonzée,1450
+272,lot- beersel,4303
+273,louvain-la-neuve,29521
+274,profondeville,12000
+275,luttre,2535
+276,maffle,1774
+277,malderen,3916
+278,manage,23000
+279,marbehan (habay),1000
+280,marche-en-famenne,17000
+281,marche-les-dames,1070
+282,marche-lez-ecaussinnes,11000
+283,marchienne-au-pont,16739
+284,maria-aalter,29241
+285,mariembourg,2064
+286,marloie,2167
+287,masnuy-saint-pierre,389
+288,maubray,1301
+289,mazy,22000
+290,mechelen,86911
+291,melle,11000
+292,hotton,5000 
+293,beveren (melsele),7077
+294,menen,33530
+295,merchtem,15053
+296,messancy,8000
+297,attre,767
+298,milmort,2566
+299,ukkel,84000
+300,mol,37567
+301,mollem,2229
+302,momalle,1470
+303,mons,95000
+304,mont-st-guibert,7000 
+305,scheldewindeke - oosterzele,13840
+306,morlanwelz,19000
+307,mortsel,26189
+308,mortsel-oude-god,25000
+309,mouscron,58000 
+310,moustier,693
+311,muizen,5442
+312,zwalm,8000
+313,namur,110000
+314,nameche,1296
+315,naninne,1573
+316,natoye,1828
+317,neerpelt,16000
+318,neerwinden,1173
+319,longlier-neufchateau,1233
+320,neufvilles,3551
+321,niel,9387
+322,sint-niklaas (nieuwkerken-waas),5921
+323,nijlen,23 251
+324,nimy,4 751
+325,nivelles,28000
+326,brecht,30000
+327,nossegem,3152
+328,obourg,4488
+329,okegem - ninove,2027
+330,olen,11784 
+331,oostende,72000
+332,oostkamp,23861
+333,opwijk,12393
+334,ottignies,30283
+335,oud-heverlee,10861
+336,oudegem,4064
+337,oudenaarde,31650
+338,ougrée,12260
+339,overpelt,15478 
+340,paliseul,5000
+341,papignies,18399
+342,pepinster,9500
+343,philippeville,8965
+344,chapelle lez herlaimont,15000
+345,st hubert,1435
+346,seraing,64000
+347,pont-a-celles,17 000
+348,poperinge,19000
+349,poulseur,1870
+350,pry,535
+351,puurs,26311
+352,grez  doiceau,12000
+353,peruwelz,17000
+354,quaregnon,19000
+355,aulnois,1050
+356,quievrain,6500
+357,rebaix,993
+358,remicourt,5500
+359,rhisnes,2013
+360,rivage,459
+361,rixensart,21865
+362,jemelle,2098
+363,roeselare,64386 
+364,ronse,26092
+365,roux,9182
+366,ruisbroek,4103
+367,ruisbroek (puurs),26311
+368,st denis - bovesse,750
+369,saint-ghislain,23000
+370,sart - bernard,1100
+371,schaarbeek,133000
+372,scheldewinde - oosterzele,3068
+373,schelle,8080
+374,schellebelle,4000
+375,idegem - geraardsbergen,1731
+376,schoonaarde,2444
+377,schulen,2909
+378,vezin,2397
+379,serskamp - wichelen,3250
+380,silly,8000 
+381,koekelberg,21 609
+382,sinaai,6229
+383,st-denijs-boekel,900
+384,sint-gillis,19000
+385,sint-joris-weert,1916
+386,sint-katelijne-waver,21391
+387,sint martens bodegem - dilbeek,2638
+388,sint-niklaas,80117
+389,sint truiden,41483
+390,sleidinge,7651
+391,soignies,28000
+392,spa,10000
+393,ferrières,4900
+394,tamines,8160
+395,temse,30000
+396,borsbeke,2445
+397,zichem,22100
+398,thieu,8000
+399,thuin,14000
+400,hensies (thulin),6500
+401,laken,57000
+402,kasterlee,18138
+403,tielt,4572
+404,tienen,32083 
+405,tilff,5584
+406,tilly,516
+407,tollembeek - galmaarden,8848
+408,tongeren,30692
+409,torhout,20000
+410,tournai,69440
+411,trois-ponts,2500
+412,tubize,26000
+413,turnhout,44136
+414,veltem,4752
+415,boutersem,7519 
+416,verviers,55207
+417,viane-moerbeke - geraardsbergen,1914
+418,vichte,4701
+419,vielsalm,7505
+420,ville-pommeroeul,
+421,villers-la-ville,10000
+422,virton,11000
+423,vise,8000
+424,viville (arlon),526
+425,voroux-goreux,1138
+426,vorst,56 616
+427,waarschoot,7926
+428,walcourt,18 000 
+429,waregem,36593
+430,waterloo,30000
+431,weerde,2848
+432,welkenraedt,10000
+433,welle - denderleeuw,4750
+434,wervik,18000
+435,wespelaar,3709
+436,wevelgem,31000
+437,wezemaal,4534
+438,wichelen,11000
+439,wijgmaal,3802
+440,willebroek,27456
+441,wondelgem,12407
+442,yvoir,8881
+443,zandbergen - geraardsbergen,1773
+444,zedelgem,22000
+445,zeebrugge,4301
+446,zele,21000
+447,zellik ,11037 
+448,zingem,7000
+449,heusden - zolder,33000
+450,zonhoven,21237 
+451,zottegem,25073
+452,zwijndrecht,44789
+453,ecaussinnes,11000
