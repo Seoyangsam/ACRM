@@ -244,3 +244,4 @@ full_trips['Delay time'] = full_trips.apply(
 #
 # full_trips['Real travel time'] = full_trips.apply(
 #     lambda obs: get_travel_time_real(obs['Time of real departure'], obs['Time of real arrival']), axis=1)
+
