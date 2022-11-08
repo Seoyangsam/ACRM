@@ -5,7 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/group7-group-assignment-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/group7-group-assignment-.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q10.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q10.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Q11.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q11.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q12.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q13.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_processing/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing/data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/maxwang/PycharmProjects/group7-group-assignment-/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/maxwang/PycharmProjects/group7-group-assignment-/src",
+    "settings.editor.selected.configurable": "Jupyter Settings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -255,7 +259,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook:///Users/maxwang/PycharmProjects/group7-group-assignment-/src/Q10.ipynb</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
