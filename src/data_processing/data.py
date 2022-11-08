@@ -45,9 +45,11 @@ sporen= gpd.read_file(path / "geosporen"/ "geosporen.shp")
 inhabitants_per_province = pd.read_excel(path / "inhabitants_per_province.xlsx")
 
 # inwoners per gemeente
-inhabitants_per_city =pd.read_csv(path/ "BevolkingscijfersPerGemeente.xlsx")
+inhabitants_per_city =pd.read_excel(path/ "inhprov.xlsx")
 
 stations_distance = gpd.read_file(path / "station_to_station/station_to_station.shp")
+
+map_brussels = gpd.read_file(path / "Administrative boundaries of Brussels Capital Region/UrbAdm_REGION.shp")
 
 punctuality_per_traintype = pd.read_csv(path / "data_punctualite_typedetrain.csv", delimiter=';')
 
