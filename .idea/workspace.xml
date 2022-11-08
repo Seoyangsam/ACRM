@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3fd02e6-cb92-4ecb-a4e2-3dcf150ca5f4" name="Changes" comment="extra insights">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q4wrong.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q4wrong.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q6.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q7.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="f3fd02e6-cb92-4ecb-a4e2-3dcf150ca5f4" name="Changes" comment="Weekeneffect" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667838357854</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Weekeneffect">
+      <created>1667920583604</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667920583605</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +245,8 @@
     <MESSAGE value="65 stations from trips need a name change , see test.ipynb" />
     <MESSAGE value="extra insights Q10, 12" />
     <MESSAGE value="extra insights" />
-    <option name="LAST_COMMIT_MESSAGE" value="extra insights" />
+    <MESSAGE value="Weekeneffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Weekeneffect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
