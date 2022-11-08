@@ -45,7 +45,7 @@ sporen= gpd.read_file(path / "geosporen"/ "geosporen.shp")
 inhabitants_per_province = pd.read_excel(path / "inhabitants_per_province.xlsx")
 
 # inwoners per gemeente
-inhabitants_per_city =pd.read_excel(path/ "BevolkingscijfersPerGemeente.xlsx")
+inhabitants_per_city =pd.read_csv(path/ "BevolkingscijfersPerGemeente.xlsx")
 
 stations_distance = gpd.read_file(path / "station_to_station/station_to_station.shp")
 
@@ -244,21 +244,3 @@ full_trips['Delay time'] = full_trips.apply(
 #
 # full_trips['Real travel time'] = full_trips.apply(
 #     lambda obs: get_travel_time_real(obs['Time of real departure'], obs['Time of real arrival']), axis=1)
-
-plt.scatter(satisfaction["Real_travel_time"], satisfaction["Avg Satisfaction"])
-plt.title("Station's satisfaction score vs real travel time ")
-#add x and y labels
-plt.xlabel("Real travel time")
-plt.ylabel("Satisfaction score")
-plt.show()
-
-fig, ax = plt.subplots()
-ax.scatter(test1["Percentage of delays"], test1["Real_travel_time"])
-ax.set_ylabel("Real travel time in minutes")
-ax.set_xlabel("Percentage of delays")
-ax.set_title("Percentage of delays vs real travel time")
-# plot a trendline
-z = np.polyfit(test1["Percentage of delays"], test1["Real_travel_time"], 1)
-p = np.poly1d(z)
-plt.plot(test1["Percentage of delays"], p(test1["Percentage of delays"]), "r--")
-plt.show()
