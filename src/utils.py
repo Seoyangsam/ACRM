@@ -3,7 +3,6 @@ def missing_values(data):
         missings = len(data[col][data[col].isnull()]) / float(len(data))
         print(col, missings)
 
-# dictionary with correct names
 Dict = dict({'antwerpen-caal': 'antwerpen-centraal',
              'arcades': 'arcaden/arcades',
              'beignee': 'beignée',
@@ -152,5 +151,8 @@ dict2 = dict({'arcaden' : 'arcaden/arcades',
 'watermaal':'watermaal/watermael',
 'yves-gomezee':'yves-gomezée',
 'ecaussinnes':'écaussinnes'})
+
+
+
 
 

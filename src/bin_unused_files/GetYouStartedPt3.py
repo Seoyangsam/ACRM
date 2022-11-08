@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # load in csv file
-facilities = pd.read_csv("../Data/Unprocessed/facilities.csv")
+facilities = pd.read_csv("../../Data/Unprocessed/facilities.csv")
 
 # show
 facilities.head(5)
