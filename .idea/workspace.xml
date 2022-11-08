@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0612d689-fa36-49c9-8a53-407ae5932c01" name="Changes" comment="weekeneffect">
-      <change beforePath="$PROJECT_DIR$/.idea/group7-group-assignment-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/group7-group-assignment-.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0612d689-fa36-49c9-8a53-407ae5932c01" name="Changes" comment="color graphs">
       <change beforePath="$PROJECT_DIR$/src/Q10.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q10.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q12.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q12.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_processing/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing/data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667921960113</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="color graphs">
+      <created>1667928886038</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667928886038</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +259,8 @@
     <MESSAGE value="extra insights Q10, 12" />
     <MESSAGE value="extra insights" />
     <MESSAGE value="weekeneffect" />
-    <option name="LAST_COMMIT_MESSAGE" value="weekeneffect" />
+    <MESSAGE value="color graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="color graphs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
