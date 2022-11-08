@@ -218,6 +218,29 @@ def get_delay(expected, real):
         delay = 0
     return delay
 
+# def get_travel_time_real(departure, arrival):
+#     if arrival > departure:
+#         x = (arrival - departure.shift(1)).seconds
+#     else:
+#         # changed this to 0 or else we won't take into account the number of trips that had no delay.
+#         x = 0
+#     return x
+#
+# def get_travel_time_planned(departure, arrival):
+#     if arrival > departure:
+#         x = (arrival - departure).seconds
+#     else:
+#         # changed this to 0 or else we won't take into account the number of trips that had no delay.
+#         x = 0
+#     return x
+#
+
 
 full_trips['Delay time'] = full_trips.apply(
     lambda obs: get_delay(obs['Time of planned arrival'], obs['Time of real arrival']), axis=1)
+
+# full_trips['Planned travel time'] = full_trips.apply(
+#     lambda obs: get_travel_time_planned(obs['Time of planned departure'], obs['Time of real arrival']), axis=1)
+#
+# full_trips['Real travel time'] = full_trips.apply(
+#     lambda obs: get_travel_time_real(obs['Time of real departure'], obs['Time of real arrival']), axis=1)
